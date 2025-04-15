@@ -46,7 +46,9 @@ def main():
             q=+1
             p=0
         else:
-            kk_rct.move_ip(-1, 0)
+            #kk_rct.move_ip(-1, 0)
+            q=-1
+            p=0
         kk_rct.move_ip(q, p)
         x=tmr%3200
         screen.blit(bg_img, [-x, 0])#6
